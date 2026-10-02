@@ -534,3 +534,11 @@ footer {
     transform: none;
     visibility: visible;
 }
+@media (min-width: 769px) {
+    .project-row.reverse .project-img {
+        order: 2;
+    }
+    .project-row.reverse .project-info {
+        order: 1;
+    }
+}
