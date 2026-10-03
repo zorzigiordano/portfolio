@@ -392,3 +392,75 @@
     .cs-grid { grid-template-columns: 1fr; }
     .cs-info-row { flex-direction: column; gap: 40px; }
 }
+.cs-grid-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+.cs-grid-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-size: 1.05rem;
+    color: #4B5563;
+}
+.cs-grid-list li::before {
+    content: '•';
+    color: #4B5563;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .cs-grid-list {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+}
+
+/* Hybrid Slide Banner for Giardini */
+.cs-slide-banner {
+    margin: 60px auto;
+    text-align: center;
+}
+.cs-slide-img {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.cs-slide-text {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .cs-slide-banner {
+        background-color: var(--bg-white);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        margin: 50px 0;
+        text-align: left;
+    }
+    .cs-slide-img {
+        border-radius: 0;
+        box-shadow: none;
+        max-width: 100%;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .cs-slide-text {
+        display: block;
+        padding: 25px;
+        background-color: white;
+        color: var(--text-dark);
+        font-size: 1.15rem;
+        font-weight: 600;
+        font-family: 'Outfit', sans-serif;
+    }
+}
