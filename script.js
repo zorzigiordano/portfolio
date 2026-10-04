@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
     // Scroll animations
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
