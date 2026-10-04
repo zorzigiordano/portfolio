@@ -1,397 +1,397 @@
-/* ReWild Case Study Styles */
-
-.cs-body {
-    background-color: #ffffff;
-    color: #4B5563;
-    font-family: 'DM Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.cs-topbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 60px;
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #6B7280;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
-
-.cs-hero {
-    text-align: center;
-    padding: 80px 20px 140px;
-    background: transparent;
-    position: relative;
-}
-
-.cs-hero-logo {
-    width: 70px;
-    height: 70px;
-    background-color: #F97316;
-    color: white;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 800;
-    margin-bottom: 30px;
-    box-shadow: 0 10px 20px rgba(249, 115, 22, 0.2);
-}
-
-.cs-subtitle {
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1F2937;
-    margin-bottom: 15px;
-}
-
-.cs-title {
-    font-family: 'Outfit', sans-serif;
-    font-size: 5rem;
-    font-weight: 900;
-    color: #111827;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-}
-
-.cs-hero-desc {
-    font-size: 1.2rem;
-    color: #6B7280;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-.cs-container {
-    max-width: 900px;
-    margin: -40px auto 0;
-    padding: 0 24px 20px;
-    background: transparent;
-}
-
-.cs-section {
-    margin-bottom: 80px;
-}
-
-.cs-section:last-of-type {
-    margin-bottom: 0;
-}
-
-.cs-section-title {
-    font-family: 'Outfit', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #374151;
-    margin-bottom: 25px;
-    position: relative;
-    display: inline-block;
-}
-
-.cs-section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    width: 50px;
-    height: 4px;
-    background-color: #F97316;
-    border-radius: 2px;
-}
-
-.cs-text {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: #4B5563;
-}
-
-.cs-list {
-    list-style: none;
-    padding: 0;
-}
-
-.cs-list li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 12px;
-    font-size: 1.05rem;
-    color: #4B5563;
-}
-
-.cs-list li::before {
-    content: '•';
-    color: #4B5563;
-    position: absolute;
-    left: 0;
-    font-size: 1.2rem;
-}
-
-.cs-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.cs-info-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-}
-
-.cs-info-col {
-    flex: 1;
-}
-
-.cs-stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 20px;
-    margin-top: 20px;
-}
-
-.cs-stat-item {
-    text-align: left;
-}
-
-.cs-stat-item h4 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #1F2937;
-    margin: 0;
-    line-height: 1;
-}
-
-.cs-stat-item p {
-    font-size: 1rem;
-    color: #6B7280;
-    margin-top: 10px;
-    font-weight: 500;
-}
-
-.cs-tools {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 20px;
-    margin-top: 20px;
-}
-
-.cs-tool {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    height: 80px;
-}
-
-.cs-tool i {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.cs-tool p {
-    font-size: 0.85rem;
-    margin: 0;
-    font-weight: 500;
-    color: #6B7280;
-}
-
-.cs-process {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 50px;
-}
-
-.cs-process-step {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 150px;
-}
-
-.cs-process-icon {
-    width: 70px;
-    height: 70px;
-    background-color: #F97316;
-    color: white;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    box-shadow: 0 8px 15px rgba(249, 115, 22, 0.2);
-}
-
-.cs-process-step:nth-child(2) .cs-process-icon { background-color: #3b82f6; box-shadow: 0 8px 15px rgba(59, 130, 246, 0.2); }
-.cs-process-step:nth-child(3) .cs-process-icon { background-color: #F97316; }
-.cs-process-step:nth-child(4) .cs-process-icon { background-color: #3b82f6; box-shadow: 0 8px 15px rgba(59, 130, 246, 0.2); }
-.cs-process-step:nth-child(5) .cs-process-icon { background-color: #F97316; }
-
-.cs-process-step h5 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin: 0 0 8px 0;
-    color: #1F2937;
-}
-
-.cs-process-step p {
-    font-size: 0.85rem;
-    color: #6B7280;
-    margin: 0;
-    line-height: 1.4;
-}
-
-.cs-arrow {
-    color: #D1D5DB;
-    font-size: 1.2rem;
-    margin-top: 25px;
-}
-
-/* Floating bubbles decoration */
-.bubble {
-    position: absolute;
-    border-radius: 50%;
-    z-index: 0;
-}
-.bubble-1 { top: 15%; left: 10%; width: 20px; height: 20px; background: #F97316; opacity: 0.6; filter: blur(2px); }
-.bubble-2 { top: 25%; right: 20%; width: 15px; height: 15px; background: #3b82f6; opacity: 0.5; filter: blur(1px); }
-.bubble-3 { bottom: 20%; right: 10%; width: 30px; height: 30px; background: #3b82f6; opacity: 0.7; box-shadow: 0 0 20px rgba(59,130,246,0.5); }
-.bubble-4 { top: 40%; left: 45%; width: 12px; height: 12px; background: #F97316; opacity: 0.4; }
-
-@media (max-width: 900px) {
-    .cs-title { font-size: 3.5rem; }
-    .cs-process { flex-wrap: wrap; gap: 30px; justify-content: center; }
-    .cs-arrow { display: none; }
-}
-
-/* Photo Banners */
-.cs-banner {
-    width: 100vw;
-    max-width: 100vw;
-    height: 60vh;
-    min-height: 400px;
-    margin: 80px 0;
-    margin-left: calc(-50vw + 50%);
-    position: relative;
-    box-sizing: border-box;
-}
-
-.cs-banner-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-}
-
-.cs-banner-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.45);
-    z-index: 1;
-}
-
-.cs-banner-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 40px;
-    z-index: 2;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.cs-banner-text {
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: left;
-    max-width: 700px;
-    padding: 0;
-    text-shadow: 0 4px 15px rgba(0,0,0,0.6);
-    line-height: 1.3;
-}
-
-.cs-banner-credit {
-    color: rgba(255, 255, 255, 0.8);
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    padding-bottom: 5px;
-}
-
-@media (max-width: 768px) {
-    .cs-banner {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        min-height: 0;
-        margin: 50px 0;
-        margin-left: 0; /* Reset breakout */
-        background-color: var(--bg-white);
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    }
-    .cs-banner-bg {
-        position: relative;
-        height: 250px;
-        background-attachment: scroll;
-    }
-    .cs-banner-overlay {
-        display: block;
-    }
-    .cs-banner-content {
-        position: relative;
-        padding: 25px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        background-color: white;
-    }
-    .cs-banner-text {
-        color: var(--text-dark);
-        text-shadow: none;
-        font-size: 1.15rem;
-        font-weight: 600;
-    }
-    .cs-banner-credit {
-        color: var(--text-light);
-        font-size: 0.85rem;
-        padding-bottom: 0;
-    }
-}
-
-@media (max-width: 600px) {
-    .cs-topbar { flex-direction: column; align-items: center; gap: 15px; padding: 20px; text-align: center; }
-    .cs-title { font-size: 2.5rem; }
-    .cs-grid { grid-template-columns: 1fr; }
-    .cs-info-row { flex-direction: column; gap: 40px; }
-}
+/* ReWild Case Study Styles */
+
+.cs-body {
+    background-color: #ffffff;
+    color: #4B5563;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cs-topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #6B7280;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.cs-hero {
+    text-align: center;
+    padding: 80px 20px 140px;
+    background: transparent;
+    position: relative;
+}
+
+.cs-hero-logo {
+    width: 70px;
+    height: 70px;
+    background-color: #F97316;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px rgba(249, 115, 22, 0.2);
+}
+
+.cs-subtitle {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 15px;
+}
+
+.cs-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #111827;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.cs-hero-desc {
+    font-size: 1.2rem;
+    color: #6B7280;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.cs-container {
+    max-width: 900px;
+    margin: -40px auto 0;
+    padding: 0 24px 20px;
+    background: transparent;
+}
+
+.cs-section {
+    margin-bottom: 80px;
+}
+
+.cs-section:last-of-type {
+    margin-bottom: 0;
+}
+
+.cs-section-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.cs-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background-color: #F97316;
+    border-radius: 2px;
+}
+
+.cs-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #4B5563;
+}
+
+.cs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cs-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    color: #4B5563;
+}
+
+.cs-list li::before {
+    content: '•';
+    color: #4B5563;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+.cs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cs-info-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.cs-info-col {
+    flex: 1;
+}
+
+.cs-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+    margin-top: 20px;
+}
+
+.cs-stat-item {
+    text-align: left;
+}
+
+.cs-stat-item h4 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 0;
+    line-height: 1;
+}
+
+.cs-stat-item p {
+    font-size: 1rem;
+    color: #6B7280;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.cs-tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+    margin-top: 20px;
+}
+
+.cs-tool {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80px;
+}
+
+.cs-tool i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.cs-tool p {
+    font-size: 0.85rem;
+    margin: 0;
+    font-weight: 500;
+    color: #6B7280;
+}
+
+.cs-process {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.cs-process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.cs-process-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #F97316;
+    color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 15px rgba(249, 115, 22, 0.2);
+}
+
+.cs-process-step:nth-child(2) .cs-process-icon { background-color: #3b82f6; box-shadow: 0 8px 15px rgba(59, 130, 246, 0.2); }
+.cs-process-step:nth-child(3) .cs-process-icon { background-color: #F97316; }
+.cs-process-step:nth-child(4) .cs-process-icon { background-color: #3b82f6; box-shadow: 0 8px 15px rgba(59, 130, 246, 0.2); }
+.cs-process-step:nth-child(5) .cs-process-icon { background-color: #F97316; }
+
+.cs-process-step h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: #1F2937;
+}
+
+.cs-process-step p {
+    font-size: 0.85rem;
+    color: #6B7280;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.cs-arrow {
+    color: #D1D5DB;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+
+/* Floating bubbles decoration */
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+}
+.bubble-1 { top: 15%; left: 10%; width: 20px; height: 20px; background: #F97316; opacity: 0.6; filter: blur(2px); }
+.bubble-2 { top: 25%; right: 20%; width: 15px; height: 15px; background: #3b82f6; opacity: 0.5; filter: blur(1px); }
+.bubble-3 { bottom: 20%; right: 10%; width: 30px; height: 30px; background: #3b82f6; opacity: 0.7; box-shadow: 0 0 20px rgba(59,130,246,0.5); }
+.bubble-4 { top: 40%; left: 45%; width: 12px; height: 12px; background: #F97316; opacity: 0.4; }
+
+@media (max-width: 900px) {
+    .cs-title { font-size: 3.5rem; }
+    .cs-process { flex-wrap: wrap; gap: 30px; justify-content: center; }
+    .cs-arrow { display: none; }
+}
+
+/* Photo Banners */
+.cs-banner {
+    width: 100vw;
+    max-width: 100vw;
+    height: 60vh;
+    min-height: 400px;
+    margin: 80px 0;
+    margin-left: calc(-50vw + 50%);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cs-banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+.cs-banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+.cs-banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cs-banner-text {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    max-width: 700px;
+    padding: 0;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    line-height: 1.3;
+}
+
+.cs-banner-credit {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .cs-banner {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 0;
+        margin: 50px 0;
+        margin-left: 0; /* Reset breakout */
+        background-color: var(--bg-white);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    .cs-banner-bg {
+        position: relative;
+        height: 250px;
+        background-attachment: scroll;
+    }
+    .cs-banner-overlay {
+        display: block;
+    }
+    .cs-banner-content {
+        position: relative;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: white;
+    }
+    .cs-banner-text {
+        color: var(--text-dark);
+        text-shadow: none;
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+    .cs-banner-credit {
+        color: var(--text-light);
+        font-size: 0.85rem;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .cs-topbar { flex-direction: column; align-items: center; gap: 15px; padding: 20px; text-align: center; }
+    .cs-title { font-size: 2.5rem; }
+    .cs-grid { grid-template-columns: 1fr; }
+    .cs-info-row { flex-direction: column; gap: 40px; }
+}
 .cs-grid-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -418,49 +418,58 @@
         grid-template-columns: 1fr;
         gap: 8px;
     }
-}
-
-/* Hybrid Slide Banner for Giardini */
-.cs-slide-banner {
-    margin: 60px auto;
-    text-align: center;
-}
-.cs-slide-img {
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    border-radius: var(--radius);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-.cs-slide-text {
-    display: none;
-}
+}
+
+/* Hybrid Slide Banner for Giardini */
+.cs-slide-banner {
+    margin: 60px auto;
+    text-align: center;
+}
+.cs-slide-img {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.cs-slide-text {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .cs-slide-banner {
+        background-color: var(--bg-white);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        margin: 50px 0;
+        text-align: left;
+    }
+    .cs-slide-img {
+        border-radius: 0;
+        box-shadow: none;
+        max-width: 100%;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .cs-slide-text {
+        display: block;
+        padding: 25px;
+        background-color: white;
+        color: var(--text-dark);
+        font-size: 1.15rem;
+        font-weight: 600;
+        font-family: 'Outfit', sans-serif;
+    }
+}
 
 @media (max-width: 768px) {
-    .cs-slide-banner {
-        background-color: var(--bg-white);
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        margin: 50px 0;
-        text-align: left;
-    }
-    .cs-slide-img {
-        border-radius: 0;
-        box-shadow: none;
-        max-width: 100%;
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-    }
-    .cs-slide-text {
-        display: block;
-        padding: 25px;
-        background-color: white;
-        color: var(--text-dark);
-        font-size: 1.15rem;
-        font-weight: 600;
-        font-family: 'Outfit', sans-serif;
+    .crm-banner .cs-slide-img {
+        height: auto !important;
+        max-height: 85vh;
+        object-fit: contain !important;
+        background-color: #f9fafb;
     }
 }

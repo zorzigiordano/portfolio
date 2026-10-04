@@ -1,0 +1,8 @@
+﻿@media (max-width: 768px) {
+    .crm-banner .cs-slide-img {
+        height: auto !important;
+        max-height: 80vh;
+        object-fit: contain !important;
+        background-color: var(--bg-light, #f9fafb);
+    }
+}
